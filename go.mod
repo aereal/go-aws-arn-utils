@@ -1,4 +1,4 @@
-module github.com/aereal/go-aws-arn-utils
+module github.com/aereal/go-aws-arn-utils/v2
 
 go 1.15
 
