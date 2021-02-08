@@ -1,18 +1,9 @@
 package awsarnutils
 
 import (
-	"errors"
 	"strings"
 
 	arnv2 "github.com/aws/aws-sdk-go-v2/aws/arn"
-)
-
-var (
-	// ErrInvalidService indicates the ARN is not of Timestream
-	ErrInvalidService = errors.New("invalid ARN: service is not timestream")
-
-	// ErrIllFormedResource indicates resource part of the ARN is not a table
-	ErrIllFormedResource = errors.New("invalid ARN: resource part is ill-formed")
 )
 
 // ParseTimestreamTableARN extracts Timestream database name and table name from tableArn
